@@ -1,87 +1,98 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SnapGuide Privacy Policy</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; max-width: 900px; }
-    h1 { margin-bottom: 10px; }
-    h2 { margin-top: 28px; }
-    .muted { color: #666; font-size: 14px; }
-    code { background: #f5f5f5; padding: 2px 6px; border-radius: 6px; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.6; margin: 0; background:#f6f7fb; color:#111; }
+    .wrap { max-width: 860px; margin: 0 auto; padding: 28px 18px; }
+    .card { background:#fff; border-radius: 16px; padding: 22px 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
+    h1 { margin: 0 0 8px; font-size: 26px; }
+    h2 { margin-top: 22px; font-size: 18px; }
+    p, li { font-size: 14px; }
+    .meta { font-size: 13px; color:#555; margin-bottom: 16px; }
+    .badge { display:inline-block; background:#eef2ff; color:#1e40af; padding:4px 10px; border-radius:999px; font-size:12px; margin-right:6px; }
+    a { color:#2563eb; }
+    code { background:#f3f4f6; padding:2px 6px; border-radius:6px; }
   </style>
 </head>
 <body>
-  <h1>SnapGuide 개인정보처리방침</h1>
-  <div class="muted">시행일: 2026-01-14</div>
+  <div class="wrap">
+    <div class="card">
+      <h1>SnapGuide Privacy Policy</h1>
+      <div class="meta">
+        <span class="badge">Last updated</span> 2026-01-14
+        <br/>
+        <span class="badge">Developer</span> Snapticy
+      </div>
 
-  <p>
-    SnapGuide(또는 "서비스")는 사용자가 촬영하거나 앨범에서 선택한 이미지를 기반으로
-    AI가 단계별 사용 가이드를 생성하는 서비스입니다.
-    SnapGuide는 사용자의 개인정보를 중요하게 생각하며, 관련 법령을 준수합니다.
-  </p>
+      <p>
+        SnapGuide (“we”, “our”, or “the app”) respects your privacy.
+        This Privacy Policy explains what information we collect, how we use it,
+        and your choices when using SnapGuide.
+      </p>
 
-  <h2>1. 수집하는 정보</h2>
-  <h3>A) 사용자가 제공하는 정보</h3>
-  <ul>
-    <li><b>이미지(사진)</b>: 사용자가 촬영하거나 앨범에서 선택하여 “분석하기”를 실행한 이미지</li>
-    <li><b>사용자가 입력하는 텍스트(있을 경우)</b>: 제품명 등 사용자가 직접 입력한 정보</li>
-  </ul>
+      <h2>1. Information We Collect</h2>
+      <p><b>(A) Images you provide</b></p>
+      <ul>
+        <li>When you select or capture an image (manual/photo) to analyze, the image may be uploaded for AI processing.</li>
+      </ul>
 
-  <h3>B) 서비스 이용 과정에서 자동으로 생성/수집될 수 있는 정보</h3>
-  <ul>
-    <li><b>기기 정보</b>: OS 종류(예: Android) 등 서비스 동작에 필요한 최소 정보</li>
-    <li><b>광고 식별자/광고 관련 정보</b>: Google Mobile Ads(AdMob) SDK가 광고 제공을 위해 처리할 수 있음</li>
-  </ul>
+      <p><b>(B) Device & app information</b></p>
+      <ul>
+        <li>Basic device/app information may be collected to provide the service and improve stability (e.g., OS version, error logs).</li>
+      </ul>
 
-  <h2>2. 이용 목적</h2>
-  <ul>
-    <li>AI 가이드 생성: 이미지 내용을 분석하여 단계별 사용 방법/설명 생성</li>
-    <li>히스토리 저장: 최근 분석한 가이드를 앱 내에서 다시 확인할 수 있도록 저장</li>
-    <li>서비스 품질 개선: 오류 분석 및 앱 안정성 향상</li>
-    <li>광고 제공: 앱 운영을 위한 광고 노출 및 성과 측정</li>
-  </ul>
+      <p><b>(C) Advertising data (AdMob)</b></p>
+      <ul>
+        <li>We use Google Mobile Ads (AdMob) to display ads (banner/interstitial).</li>
+        <li>AdMob may collect device identifiers and ad-related data to provide and measure ads.</li>
+      </ul>
 
-  <h2>3. 이미지(사진) 처리 방식</h2>
-  <ul>
-    <li>사용자가 “분석하기”를 실행한 경우에만 이미지가 분석 목적으로 이용됩니다.</li>
-    <li>생성된 결과(가이드)는 사용자가 앱에서 열람할 수 있도록 표시됩니다.</li>
-    <li>앱은 “최근 기록(히스토리)” 기능을 위해 분석 결과(선택한 이미지 URI 포함)를 기기 로컬에 저장할 수 있습니다(AsyncStorage).</li>
-    <li>저장된 기록은 사용자가 직접 삭제할 수 있습니다.</li>
-  </ul>
+      <h2>2. How We Use Information</h2>
+      <ul>
+        <li>To analyze images and generate step-by-step guides.</li>
+        <li>To store guide history on your device for convenience.</li>
+        <li>To operate, maintain, and improve the app (stability and performance).</li>
+        <li>To display ads and measure ad performance.</li>
+      </ul>
 
-  <h2>4. 제3자 제공 및 처리 위탁</h2>
-  <p>
-    SnapGuide는 서비스 제공을 위해 아래 업체의 서비스를 사용할 수 있습니다.
-  </p>
-  <ul>
-    <li><b>OpenAI</b>: 이미지 분석 및 가이드 생성(서비스 기능 제공 목적)</li>
-    <li><b>Google AdMob</b>: 광고 제공 및 성과 측정</li>
-  </ul>
+      <h2>3. Data Storage</h2>
+      <ul>
+        <li>Generated guide history may be stored locally on your device (e.g., AsyncStorage).</li>
+        <li>Uploaded images are used only for analysis purposes and are not sold.</li>
+      </ul>
 
-  <h2>5. 보유 및 이용기간</h2>
-  <ul>
-    <li>분석 기록은 사용자의 기기에 저장되며, 사용자가 삭제할 때까지 보관될 수 있습니다.</li>
-    <li>서버로 전송되는 데이터는 AI 분석 처리 목적 달성 후 필요한 범위 내에서만 처리됩니다.</li>
-  </ul>
+      <h2>4. Third-Party Services</h2>
+      <ul>
+        <li><b>Google AdMob</b> (Google Mobile Ads SDK)</li>
+        <li><b>OpenAI API</b> (AI analysis and generation)</li>
+        <li><b>Google Cloud Run</b> (Backend processing)</li>
+      </ul>
 
-  <h2>6. 이용자의 권리</h2>
-  <ul>
-    <li>사용자는 앱에 저장된 기록을 언제든지 삭제할 수 있습니다.</li>
-    <li>개인정보 관련 문의는 아래 이메일로 요청할 수 있습니다.</li>
-  </ul>
+      <h2>5. Your Choices</h2>
+      <ul>
+        <li>You can stop using the app at any time.</li>
+        <li>You can remove stored history by clearing app data or uninstalling the app.</li>
+      </ul>
 
-  <h2>7. 문의처</h2>
-  <p>
-    개인정보처리방침 관련 문의:
-    <br />
-    📧 <a href="mailto:snapticy@gmail.com">snapticy@gmail.com</a>
-  </p>
+      <h2>6. Children’s Privacy</h2>
+      <p>
+        SnapGuide is not intended for children under 13.
+        We do not knowingly collect personal information from children.
+      </p>
 
-  <h2>8. 변경 고지</h2>
-  <p>
-    본 개인정보처리방침이 변경되는 경우, 앱 또는 웹페이지를 통해 고지할 수 있습니다.
-  </p>
+      <h2>7. Contact</h2>
+      <p>
+        If you have questions about this Privacy Policy, contact us:<br/>
+        <b>Email:</b> <a href="mailto:snapticy@gmail.com">snapticy@gmail.com</a>
+      </p>
+
+      <p class="meta">
+        © 2026 Snapticy. All rights reserved.
+      </p>
+    </div>
+  </div>
 </body>
 </html>
